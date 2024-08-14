@@ -8,18 +8,7 @@
   C:\Users\parke\OneDrive\Desktop\Chess\resources\ball.wav
   C:\Users\parke\OneDrive\Desktop\Chess\resources\sansation.ttf
           2 file(s) copied.
-  King.cpp
-C:\Users\parke\OneDrive\Desktop\Chess\King.cpp(15,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\parke\OneDrive\Desktop\Chess\King.cpp(15,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\parke\OneDrive\Desktop\Chess\King.cpp(31,9): warning C4101: 'king_piece': unreferenced local variable
-  main.cpp
-C:\Users\parke\OneDrive\Desktop\Chess\main.cpp(50,52): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\parke\OneDrive\Desktop\Chess\main.cpp(50,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\parke\OneDrive\Desktop\Chess\main.cpp(59,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\parke\OneDrive\Desktop\Chess\main.cpp(59,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\parke\OneDrive\Desktop\Chess\main.cpp(67,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\parke\OneDrive\Desktop\Chess\main.cpp(67,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\parke\OneDrive\Desktop\Chess\main.cpp(68,59): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-  Generating Code...
-C:\Users\parke\OneDrive\Desktop\Chess\King.cpp(139,1): warning C4715: 'King::is_check': not all control paths return a value
+  Pawn.cpp
+C:\Users\parke\OneDrive\Desktop\Chess\Pawn.cpp(24,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\parke\OneDrive\Desktop\Chess\Pawn.cpp(24,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Chess.vcxproj -> C:\Users\parke\OneDrive\Desktop\Chess\x64\Debug Dynamic\Chess.exe

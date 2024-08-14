@@ -41,7 +41,7 @@ vector <pair<int, int>> Pawn::get_Moves(vector<Piece*>& pieces, int turn) {
 
 	avail_moves.push_back({ piece_x, piece_y + (-1 * color)});
 
-	if (origin.first == piece_x && origin.second == piece_y) {
+	if (origin.first == piece_x && origin.second == piece_y && !find_piece(piece_x, piece_y + (-1 * color), pieces)) {
 		avail_moves.push_back({ piece_x, piece_y + (-2 * color) });
 	}
 

@@ -37,16 +37,14 @@ void Board::Draw_Moves(Piece* piece, int turn, bool is_checked, vector<Piece*> p
 
     can_move.setFillColor(Color::Green);
 
-    if (is_pinned(piece, turn, pieces)) {
-
-    }
-
-    else if (!is_checked)
+    if (!is_checked)
     {
-        for (pair<int, int> move : piece->get_Moves(pieces, turn)) {
-            if (!find_piece(move.first, move.second, pieces) || find_piece(move.first, move.second, pieces)->color != turn) {
-                can_move.setPosition(p_x * move.first, p_y * move.second);
-                window.draw(can_move);
+        if (!is_pinned(piece, turn, pieces)) {
+            for (pair<int, int> move : piece->get_Moves(pieces, turn)) {
+                if (!find_piece(move.first, move.second, pieces) || find_piece(move.first, move.second, pieces)->color != turn) {
+                    can_move.setPosition(p_x * move.first, p_y * move.second);
+                    window.draw(can_move);
+                }
             }
         }
     }
